@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -11,15 +11,21 @@
   <div class="container">
 
     <!-- Navbar -->
-    <div class="navbar">
-      <img src="./images/khethy.image.jpeg" alt="Logo">
+    <nav class="navbar" role="navigation">
+      <a class="brand" href="index.html"><img src="./images/khethy.image.jpeg" alt="Logo"></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
 
-      <ul>
+      <ul class="menu">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About me</a></li>
         <li><a href="contact.html">Contact us</a></li>
       </ul>
-    </div>
+    </nav>
 
     <h2>About Me</h2>
 
